@@ -1,0 +1,20 @@
+{
+  "name": "alex-badila-wddm132-assignment-1",
+  "version": "1.0.0",
+  "description": "This assignment fetches information from the Dragonball API using TypeScript. The user searches for the Dragon Ball character by name and the result is displayed to the page.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-badila/alex-badila-wddm132-assignment-1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-badila/alex-badila-wddm132-assignment-1/issues"
+  },
+  "homepage": "https://github.com/alex-badila/alex-badila-wddm132-assignment-1#readme",
+  "type": "module"
+}
