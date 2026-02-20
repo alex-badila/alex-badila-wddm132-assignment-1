@@ -2,10 +2,10 @@
 const url = new URL("https://dragonball-api.com/api/characters");
 
 // Target important elements for display purposes
-const form = document.querySelector<HTMLFormElement>(".characterForm");
-const input = document.querySelector<HTMLInputElement>("#search");
-const imgBox = document.querySelector<HTMLElement>(".imgBox");
-const characterInfo = document.querySelector<HTMLElement>(".characterInfo");
+const form = document.querySelector(".characterForm") as HTMLFormElement;
+const input = document.querySelector("#search") as HTMLInputElement;
+const imgBox = document.querySelector(".imgBox") as HTMLElement;
+const characterInfo = document.querySelector(".characterInfo") as HTMLElement;
 
 // Search for the character inputted by the user and return the results
 const searchCharacter = () => {
